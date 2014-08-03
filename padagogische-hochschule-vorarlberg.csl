@@ -237,7 +237,7 @@
         <text variable="container-title" font-style="normal" suffix=".&#160;"/>
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
-        <text variable="container-title" font-style="normal" suffix=",&#160;"/>
+        <text variable="container-title" font-style="normal" suffix="&#160;"/>
       </else-if>
       <else-if type="webpage">
         <text variable="container-title" font-style="normal" suffix=".&#160;"/>
